@@ -29,6 +29,7 @@ body {
 }
 
 .sidebar {
+    position:relative;
     background-image: url('./images/bg-image.jpg');
     background-size: cover;
     width: 40%;
@@ -60,11 +61,15 @@ body {
 }
 
 .credits {
-    position: absolute;
-    bottom: 20px;
-    left: 80px;
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+}
+
+.credits p {
     color: #fff;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .credits a {
