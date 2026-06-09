@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('/font/Norse.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('/font/Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.main {
+    display: flex;
+    width:100vw;
+    height:100vh;
+}
+
+.sidebar {
+    background-image: url('/images/bg-image.jpg');
+    background-size: cover;
+}
