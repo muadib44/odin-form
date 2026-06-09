@@ -18,6 +18,10 @@
     font-style: normal;
 }
 
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
 .main {
     display: flex;
     width:100vw;
@@ -27,4 +31,41 @@
 .sidebar {
     background-image: url('/images/bg-image.jpg');
     background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 120px;
+}
+
+.icon-container p {
+    font-family: 'Norse', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.icon-container img {
+    height: 50px;
+    width: auto;
+}
+
+.credits {
+    position: absolute;
+    bottom: 20px;
+    left: 20px; 
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.credits a {
+    color: #fff;
+    text-decoration: underline;
 }
