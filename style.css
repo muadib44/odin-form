@@ -6,20 +6,20 @@
 
 @font-face {
     font-family: 'Norse';
-    src: url('/font/Norse.otf') format('opentype');
+    src: url('./font/Norse.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Norse';
-    src: url('/font/Norse-Bold.otf') format('opentype');
+    src: url('./font/Norsebold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Arial', sans-serif;
 }
 
 .main {
@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar {
-    background-image: url('/images/bg-image.jpg');
+    background-image: url('./images/bg-image.jpg');
     background-size: cover;
     width: 40%;
     height: 100%;
@@ -39,30 +39,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 1px;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+    height: 5.5rem;
     padding: 20px 0;
-    margin-top: 120px;
+    margin-top: 135px;
 }
 
 .icon-container p {
-    font-family: 'Norse', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Norse', serif;
+    font-weight: bold;
+    font-size: 3.5rem;
     color: #fff;
 }
 
 .icon-container img {
-    height: 50px;
+    height: 4.5rem;
     width: auto;
 }
 
 .credits {
     position: absolute;
     bottom: 20px;
-    left: 20px; 
+    left: 80px;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
 }
 
 .credits a {
